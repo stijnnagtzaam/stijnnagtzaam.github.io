@@ -1,0 +1,33 @@
+#particles-js {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9000;
+  overflow: hidden;
+}
+
+.navbar-collapse{
+ justify-content: flex-begin;
+}
+
+#name {
+  text-align: center;
+  padding-top: 20rem;
+  font-size: 3rem;
+  letter-spacing: 0.4rem;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
